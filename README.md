@@ -1,5 +1,6 @@
 ### About
-This is an ASP.NET Core WebApi application which reads Vendors and Bank Accounts from D365FO via OData interface and writes them into an Azure SQL database.
+This is an ASP.NET Core WebApi application which reads Vendors and Bank Accounts from D365FO via OData interface and writes them into an Azure SQL database. 
+It uses the provided client id and client secret to obtain oauth 2.0 token which is required to access the D365 resource and performs the data migration to the db with the help of Entity Framework Core.
 
 ### Parameters
 Mandatory: filter -> Pass Odata filter criteria to specify which vendors should be transferred.
