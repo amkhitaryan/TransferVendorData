@@ -2,7 +2,6 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/TransferVendorData.Web/appsettings.json
 /TransferVendorData.Web/bin/Debug/netcoreapp3.1/appsettings.json
 **/Dockerfile*
 **/.vs
