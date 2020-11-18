@@ -6,7 +6,7 @@ It uses the provided client id and client secret to obtain oauth 2.0 token which
 Mandatory: filter -> Pass Odata filter criteria to specify which vendors should be transferred.
 
 ### Usage
-- https://TransferVendorData/SyncVendorData?$filter=dataAreaId eq 'JPMF' -> Transfer all vendors from USMF company.
+- https://TransferVendorData/SyncVendorData?$filter=dataAreaId eq 'JPMF' -> Transfer all vendors from JPMF company.
 - https://TransferVendorData/SyncVendorData?$filter=dataAreaId eq 'JPMF' and VendorAccountNumber eq 'JPMF-000002' -> Transfer JPMF-000002 from JPMF company.
 
 Expected result:
