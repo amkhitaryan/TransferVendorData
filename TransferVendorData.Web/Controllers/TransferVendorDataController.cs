@@ -85,12 +85,12 @@ namespace TransferVendorData.Web.Controllers
 
             if (queryOptions.Filter == null)
             {
-                throw new ODataException(errorMessage + "The filter parameter is mandatory. " +
+                throw new ODataException(errorMessage + " The filter parameter is mandatory. " +
                     "Please pass OData filter criteria to specify which vendors should be transferred.");
             }
             if (queryOptions.SelectExpand != null)
             {
-                throw new ODataException(errorMessage + "The select parameter is not supported.");
+                throw new ODataException(errorMessage + " The select parameter is not supported.");
             }
         }
     }
